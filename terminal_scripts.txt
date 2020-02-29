@@ -1,0 +1,15 @@
+# Commands setup Linux Mint 
+
+## Update
+sudo apt update 
+sudo apt upgrade
+
+## Add public key
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+
+## Install (R | git | inkscape | skypeforlinux )
+sudo apt install r-base r-base-dev git inkscape skypeforlinux
+
+## Linux libs for data Science (R tidyverse)
+sudo apt install libcurl4-openssl-dev libmagick++-dev libxml2-dev libssl-dev
+
