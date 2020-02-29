@@ -1,4 +1,4 @@
-# Commands setup Linux Mint 
+# Commands setup Linux Mint 19
 
 ## Update
 sudo apt update 
