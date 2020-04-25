@@ -4,12 +4,18 @@
 sudo apt update 
 sudo apt upgrade
 
+# Midia codecs
+sudo apt install ubuntu-restricted-extras
+
+# Synapt
+sudo apt-get install synaptic
+
 ## Add public key
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
 
 ## Install (R | git | inkscape | skypeforlinux )
-sudo apt install r-base r-base-dev git inkscape skypeforlinux
+sudo apt install r-base r-base-de
 
 ## Linux libs for data Science (R tidyverse)
-sudo apt install libcurl4-openssl-dev libmagick++-dev libxml2-dev libssl-dev libgmp3-dev
+sudo apt install libcurl4-openssl-dev libmagick++-dev libxml2-dev libssl-dev libgmp3-dev 
 
