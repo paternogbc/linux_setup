@@ -44,3 +44,21 @@ sudo apt install r-base r-base-dev
 ```
 sudo apt install libcurl4-openssl-dev libmagick++-dev libxml2-dev libssl-dev libgmp3-dev libglpk-dev
 ```
+
+## Install essential r-packages
+```
+R -e 'install.packages(c("tidyverse", "blogdown", "bookdown", "sensiPhy"))'
+```
+## Generate public key for Github
+
+```
+ssh-keygen -t rsa -b 4096 -C "paternogbc@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+```
+
+## Add public key to Github
+```
+sudo apt-get install xclip
+xclip -sel clip < ~/.ssh/id_rsa.pub
+```
