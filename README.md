@@ -47,7 +47,7 @@ sudo apt install libcurl4-openssl-dev libmagick++-dev libxml2-dev libssl-dev lib
 
 ## Install essential r-packages
 ```
-R -e 'install.packages(c("tidyverse", "blogdown", "bookdown", "sensiPhy"))'
+R -e 'install.packages(c("devtools","tidyverse", "blogdown", "bookdown", "sensiPhy", "glmmTMB"))'
 ```
 ## Generate public key for Github
 
